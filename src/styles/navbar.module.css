@@ -1,0 +1,23 @@
+.navbar {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.linkList {
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    max-width: 800px;
+    padding: 12px 20px;
+}
+
+.link {
+    color: var(--text-color-dark);
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.link:hover {
+    color: var(--accent-color);
+}

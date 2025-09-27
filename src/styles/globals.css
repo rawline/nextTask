@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg-color: #e6e6e6;
+    --text-color-dark: #333;
+    --text-color-white: #ffffff;
+    --accent-color: #0070f3;
+    --accent-hover-color: #015ec9;
+}
+
+html,
+body {
+    background-color: var(--main-bg-color);
+    color: var(--text-color-dark);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
